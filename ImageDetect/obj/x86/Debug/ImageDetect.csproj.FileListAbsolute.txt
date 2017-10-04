@@ -1,0 +1,9 @@
+C:\Users\mkadiwala\Documents\Ranorex\RanorexStudio Projects\ImageDetect\ImageDetect\bin\Debug\ImageDetect.rxtmg
+C:\Users\mkadiwala\Documents\Ranorex\RanorexStudio Projects\ImageDetect\ImageDetect\bin\Debug\ImageDetect.rxtst
+C:\Users\mkadiwala\Documents\Ranorex\RanorexStudio Projects\ImageDetect\ImageDetect\bin\Debug\RepositoryImages\ImageDetectRepository058ffc0c.rximgres
+C:\Users\mkadiwala\Documents\Ranorex\RanorexStudio Projects\ImageDetect\ImageDetect\bin\Debug\ImageDetect.exe.config
+C:\Users\mkadiwala\Documents\Ranorex\RanorexStudio Projects\ImageDetect\ImageDetect\bin\Debug\ImageDetect.exe
+C:\Users\mkadiwala\Documents\Ranorex\RanorexStudio Projects\ImageDetect\ImageDetect\bin\Debug\ImageDetect.pdb
+C:\Users\mkadiwala\Documents\Ranorex\RanorexStudio Projects\ImageDetect\ImageDetect\obj\x86\Debug\ImageDetect.csprojResolveAssemblyReference.cache
+C:\Users\mkadiwala\Documents\Ranorex\RanorexStudio Projects\ImageDetect\ImageDetect\obj\x86\Debug\ImageDetect.exe
+C:\Users\mkadiwala\Documents\Ranorex\RanorexStudio Projects\ImageDetect\ImageDetect\obj\x86\Debug\ImageDetect.pdb

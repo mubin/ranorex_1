@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{65935949-6884-40F3-BA68-F3F046459954}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ImageDetect</RootNamespace>
+    <AssemblyName>ImageDetect</AssemblyName>
+    <RanorexVersion>7.1</RanorexVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <RanorexTargetsPath>$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>d50e8296-7040-4934-b00d-04b0b72c5cd2</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Core" />
+    <Reference Include="Ranorex.Plugin.Cef" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb" />
+    <Reference Include="Ranorex.Plugin.Flex" />
+    <Reference Include="Ranorex.Plugin.Java" />
+    <Reference Include="Ranorex.Plugin.Mobile" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb" />
+    <Reference Include="Ranorex.Plugin.Msaa" />
+    <Reference Include="Ranorex.Plugin.Office" />
+    <Reference Include="Ranorex.Plugin.Qt" />
+    <Reference Include="Ranorex.Plugin.RawText" />
+    <Reference Include="Ranorex.Plugin.Sap" />
+    <Reference Include="Ranorex.Plugin.Uia" />
+    <Reference Include="Ranorex.Plugin.Web" />
+    <Reference Include="Ranorex.Plugin.WebDriver" />
+    <Reference Include="Ranorex.Plugin.Win32" />
+    <Reference Include="Ranorex.Plugin.WinForms" />
+    <Reference Include="Ranorex.Plugin.Wpf" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>383c1696-5631-498c-a540-f43dfefffbc4</id>
+    </Compile>
+    <Compile Include="ImageDetectRepository.cs">
+      <BoundTo>d50e8296-7040-4934-b00d-04b0b72c5cd2</BoundTo>
+      <DependentUpon>ImageDetectRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>a0c712db-697d-4b05-8e31-620f850937a9</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>3df58677-8867-4796-92ba-c594352090b7</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>58502767-3f2d-4ca1-8d50-1f713d63eb94</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>cb7e4cfe-19fe-423a-8a72-a4f8074a0835</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>58502767-3f2d-4ca1-8d50-1f713d63eb94</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6cc55a1f-89ed-49cc-971e-cfdd9d81dcb8</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>b243b724-3478-47a1-9cea-fcfb66377479</id>
+    </None>
+    <None Include="ImageDetectRepository.rximg">
+      <BoundTo>d50e8296-7040-4934-b00d-04b0b72c5cd2</BoundTo>
+      <DependentUpon>ImageDetectRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>5409f25c-9178-4481-aff7-37db7890b9da</id>
+    </None>
+    <None Include="ImageDetectRepository.rxrep">
+      <id>d50e8296-7040-4934-b00d-04b0b72c5cd2</id>
+      <repoid>94f03c1a-61d5-4b19-aece-3ea30fe9dc75</repoid>
+      <reporootid>058ffc0c-62d8-4219-9154-4e915ecf7501</reporootid>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>d50e8296-7040-4934-b00d-04b0b72c5cd2</BoundTo>
+      <id>58502767-3f2d-4ca1-8d50-1f713d63eb94</id>
+      <recordtableid>0aec9f5e-e243-4136-bb8f-e2ba529a3197</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ImageDetect.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>ed146227-9766-4da8-be9c-fccd879590ed</id>
+    </Content>
+    <Content Include="ImageDetect.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>eddfaa5a-81e4-45fe-9ad3-d322209832a3</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1f7b9bfbe212b19"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="mkadiwala"
+		rxversion="7.1.1.0"
+		host="RXLAPTOP107"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="5206x1200"
+		timestamp="9/15/2017 11:31:38 AM"
+		timestampiso="2017-09-15T15:31:38"
+		endtime="9/15/2017 11:31:42 AM"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.388"
+			timeRelativeToTestModuleStartTime="00:00.388"
+			timeWallClock="11:31:39"
+			time="00:00.388"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://www.kauffmantire.com/' with browser 'IE' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\mkadiwala\Documents\Ranorex\RanorexStudio Projects\ImageDetect\ImageDetect\Recording1.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.446"
+			timeRelativeToTestModuleStartTime="00:00.446"
+			timeWallClock="11:31:39"
+			time="00:00.446"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'KauffmanTire.FormControlNgPristineNgUntouchedNg' at 274;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]/?/?/section/div[1]/tag[2]/div/div/div/div[1]/div/div[2]/div[1]/div[2]/div[1]/select"
+				fullname="ImageDetectRepository.KauffmanTire.FormControlNgPristineNgUntouchedNg"
+				id="742dc2c7e3744f75b557cf7f854d43d1"
+				timeout="60000"
+				codefile="c:\Users\mkadiwala\Documents\Ranorex\RanorexStudio Projects\ImageDetect\ImageDetect\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="9f3861e88533750"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="mkadiwala"
+		rxversion="7.1.1.0"
+		host="RXLAPTOP107"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="5206x1200"
+		timestamp="9/15/2017 11:41:32 AM"
+		timestampiso="2017-09-15T15:41:32"
+		endtime="9/15/2017 11:41:41 AM"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.378"
+			timeRelativeToTestModuleStartTime="00:00.378"
+			timeWallClock="11:41:33"
+			time="00:00.378"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://www.kauffmantire.com/' with browser 'firefox' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\mkadiwala\Documents\Ranorex\RanorexStudio Projects\ImageDetect\ImageDetect\Recording1.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.428"
+			timeRelativeToTestModuleStartTime="00:00.428"
+			timeWallClock="11:41:33"
+			time="00:00.428"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'KauffmanTire.FormControlNgPristineNgUntouchedNg' at 4;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.kauffmantire.com']/?/?/section/div[1]/tag[2]/div/div/div/div[1]/div/div[2]/div[1]/div[2]/div[1]/select"
+				fullname="ImageDetectRepository.KauffmanTire.FormControlNgPristineNgUntouchedNg"
+				id="be60d8429dc948bda50861415a6cabe3"
+				timeout="60000"
+				codefile="c:\Users\mkadiwala\Documents\Ranorex\RanorexStudio Projects\ImageDetect\ImageDetect\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.139"
+			timeRelativeToTestModuleStartTime="00:08.139"
+			timeWallClock="11:41:41"
+			time="00:08.139"
+			level="Info"
+			category="Set Value">
+			<message>
+				Setting attribute TagValue to '1999' on item 'KauffmanTire.FormControlNgPristineNgUntouchedNg'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.kauffmantire.com']/?/?/section/div[1]/tag[2]/div/div/div/div[1]/div/div[2]/div[1]/div[2]/div[1]/select"
+				fullname="ImageDetectRepository.KauffmanTire.FormControlNgPristineNgUntouchedNg"
+				id="be60d8429dc948bda50861415a6cabe3"
+				timeout="60000"
+				codefile="c:\Users\mkadiwala\Documents\Ranorex\RanorexStudio Projects\ImageDetect\ImageDetect\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

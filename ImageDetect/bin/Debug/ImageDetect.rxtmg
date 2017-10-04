@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="7.1">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="ImageDetect"
+      id="59db5f7f-c67a-4154-90b5-90c106b4dc9e"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="ImageDetect"
+      id="59db5f7f-c67a-4154-90b5-90c106b4dc9e"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

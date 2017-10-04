@@ -1,0 +1,89 @@
+﻿<repository
+id="94f03c1a-61d5-4b19-aece-3ea30fe9dc75"
+name="ImageDetectRepository"
+rxversion="7.1">
+	<codegen
+	classname="ImageDetectRepository"
+	namespace="ImageDetect">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="058ffc0c-62d8-4219-9154-4e915ecf7501"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="6d02c08c-8b3c-4e08-ab0c-bacc8e5979ed"
+		isrooted="True"
+		name="KauffmanTire"
+		refpath="/dom[@domain='www.kauffmantire.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="be60d842-9dc9-48bd-a508-61415a6cabe3"
+			name="FormControlNgPristineNgUntouchedNg"
+			refimgid="f05d09ba-d377-4fce-8a99-e123771345ca"
+			refpath="/dom[@domain='www.kauffmantire.com']/body/section/div[1]/tag[2]/div/div/div/div[1]/div/div[2]/div[1]/div[2]/div[1]/select"
+			searchtimeout="30000ms">
+				/dom[@domain='www.kauffmantire.com']/?/?/section/div[1]/tag[2]/div/div/div/div[1]/div/div[2]/div[1]/div[2]/div[1]/select
+			</item>
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="52aff12f-97ae-40f4-addd-7f9b726629f9"
+			name="FormControlNgPristineNgUntouchedNg1"
+			refimgid="b507ea3d-2506-4f24-b75f-f9ceedb59ca2"
+			refpath="/dom[@domain='www.kauffmantire.com']/body/section/div[1]/tag[2]/div/div/div/div[1]/div/div[2]/div[1]/div[2]/div[2]/select"
+			searchtimeout="30000ms">
+				/dom[@domain='www.kauffmantire.com']/?/?/section/div[1]/tag[2]/div/div/div/div[1]/div/div[2]/div[1]/div[2]/div[2]/select
+			</item>
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="957be918-3cf8-49eb-95c6-2ac565dd8b60"
+			name="FormControlNgPristineNgValidNgNot"
+			refimgid="f716fb2f-d0d9-47ac-bbbd-f7ef621a553b"
+			refpath="/dom[@domain='www.kauffmantire.com']/body/section/div[1]/tag[2]/div/div/div/div[1]/div/div[2]/div[1]/div[2]/div[3]/select"
+			searchtimeout="30000ms">
+				/dom[@domain='www.kauffmantire.com']/?/?/section/div[1]/tag[2]/div/div/div/div[1]/div/div[2]/div[1]/div[2]/div[3]/select
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="d6dcb7dc-f9d4-4463-bfcd-123868ffacf7"
+			name="Text"
+			refimgid="e7b22308-ecb7-4715-9bcf-475c7525f4ca"
+			refpath="/dom[@domain='www.kauffmantire.com']/body/section/div[1]/tag[2]/div/div/div/div[1]/div/div[2]/div[1]/div[2]/div[4]/input[@type='text']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.kauffmantire.com']/?/?/section/div[1]/tag[2]/div/div/div/div[1]/div/div[2]/div[1]/div[2]/div[4]/input[@type='text']
+			</item>
+			<basepath>
+				/dom[@domain='www.kauffmantire.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
